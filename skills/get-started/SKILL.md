@@ -9,7 +9,7 @@ description: Introduce the IRM365 connection. Use when the user has just connect
 2. Tell the user, in two or three sentences:
    - which company and person the connection acts for;
    - which areas are shared (leads and follow-ups, opportunities, activity notes);
-   - that the connection is read-only and never returns phone numbers or email addresses.
+   - that the connection is read-only and does not share the phone and email fields (free-text notes may still contain whatever people typed).
 3. Offer three things they can ask next, picked from the shared areas. For example:
    - "What follow-ups do I have today?"
    - "Show my hot leads that haven't been contacted this week."

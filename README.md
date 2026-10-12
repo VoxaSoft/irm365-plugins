@@ -26,7 +26,8 @@ Your company must have AI assistants switched on in IRM365 settings, and you nee
 
 - **What Claude sees:** only records you can already see in IRM365. An agent sees their own leads and a manager sees their team. Nothing from another company is ever reachable.
 - **Read-only:** the connector never creates, changes or deletes anything.
-- **What it never sends:** phone numbers or email addresses. Activity notes are sent only when your company switches that on, and you tick it at consent.
+- **What it does not send:** the dedicated phone and email fields of leads and customers.
+- **Free text:** activity titles are sent as people typed them, and so are activity notes when your company switches them on and you tick them at consent. Anything typed there, including a phone number or email address, can reach Claude.
 - **Where data goes:** it travels only between IRM365 (`mcp.irm365.com`, signed in through `auth.irm365.com`) and Claude. The plugin itself stores nothing and runs no code on your computer.
 - **Control:** your company admin can see every connection and disconnect it at any time, and you can disconnect from IRM365 or from Claude.
 

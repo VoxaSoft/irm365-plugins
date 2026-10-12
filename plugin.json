@@ -17,7 +17,7 @@
       "interface": {
         "displayName": "IRM365",
         "shortDescription": "Your real-estate CRM in chat",
-        "longDescription": "IRM365 is the CRM for real-estate brokerages in the UAE. Connect it to ask about your work in plain language: which follow-ups are due today or overdue, which hot leads have gone quiet, what is in your pipeline and when it should close, and what your team has been doing.\n\nSign in with your IRM365 work account. You choose which areas to share, and every answer is limited to the records you can already see in IRM365 — an agent sees their own leads, a manager sees their team, and nothing from another company is ever reachable.\n\nThe connection is read-only. It never creates, changes or deletes anything, and it never returns phone numbers or email addresses. Activity notes are shared only when your company switches that on. Your company admin can see every connection and disconnect it at any time.",
+        "longDescription": "IRM365 is the CRM for real-estate brokerages in the UAE. Connect it to ask about your work in plain language: which follow-ups are due today or overdue, which hot leads have gone quiet, what is in your pipeline and when it should close, and what your team has been doing.\n\nSign in with your IRM365 work account. You choose which areas to share, and every answer is limited to the records you can already see in IRM365 — an agent sees their own leads, a manager sees their team, and nothing from another company is ever reachable.\n\nThe connection is read-only: it never creates, changes or deletes anything. The dedicated phone and email fields of leads and customers are not shared. Free text, such as activity titles and, when your company switches them on, activity notes, is sent as people typed it and may contain personal details. Your company admin can see every connection and disconnect it at any time.",
         "developerName": "VoxaSoft",
         "category": "Productivity",
         "capabilities": [
@@ -49,7 +49,7 @@
               "description": "Today's and overdue follow-ups for the signed-in person",
               "prompt": "What follow-ups do I have today, and which ones are overdue?",
               "tools_triggered": ["list_followups"],
-              "expected_behavior": "Calls list_followups for the overdue and today windows and lists each follow-up with its lead reference, type and due time, overdue first. No phone numbers or emails appear."
+              "expected_behavior": "Calls list_followups for the overdue and today windows and lists each follow-up with its lead reference, type and due time, overdue first. No phone or email fields are listed."
             },
             {
               "description": "Search hot leads",
@@ -82,7 +82,7 @@
               "prompt": "Create a new lead for Ahmed Khan looking for a 2-bedroom in Dubai Marina."
             },
             {
-              "description": "A request for contact details the connector never returns",
+              "description": "A request for the phone and email fields, which the connector does not share",
               "prompt": "Give me the phone numbers and emails of all my leads."
             },
             {

@@ -17,4 +17,4 @@ Write the briefing in this order, using short lists:
 - **Hot leads going cold**: each with the days since last contact.
 - **Closing this week**: opportunity, stage, expected value in AED, close date.
 
-End with the three actions that matter most today, one line each. Leave out an empty section rather than writing "none". Never invent phone numbers, emails or notes; the connection doesn't return contact details.
+End with the three actions that matter most today, one line each. Leave out an empty section rather than writing "none". Never invent phone numbers, emails or notes; the connection does not share the phone and email fields.
