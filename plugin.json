@@ -59,7 +59,7 @@
             },
             {
               "description": "Look at one lead in detail",
-              "prompt": "Give me a summary of lead LEAD-000001 and its latest activities.",
+              "prompt": "Give me a summary of lead LEAD-DEMO-001 and its latest activities.",
               "tools_triggered": ["get_lead"],
               "expected_behavior": "Calls get_lead with the reference and summarises status, priority, owner, requirements and the most recent activities."
             },
