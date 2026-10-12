@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "irm365": {
+      "type": "http",
+      "url": "https://mcp.irm365.com/mcp"
+    }
+  }
+}

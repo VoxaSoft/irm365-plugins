@@ -1,0 +1,14 @@
+{
+  "name": "irm365",
+  "displayName": "IRM365",
+  "version": "1.0.0",
+  "description": "Read your IRM365 real-estate CRM from Claude: leads, follow-ups, opportunities, activities and your team, scoped to exactly what you can see in IRM365. Read-only. Includes skills for a daily briefing, a pipeline review and a team follow-up check.",
+  "author": {
+    "name": "VoxaSoft",
+    "url": "https://irm365.com"
+  },
+  "homepage": "https://irm365.com/integrations/ai-assistants",
+  "repository": "https://github.com/VoxaSoft/irm365-plugins",
+  "license": "MIT",
+  "keywords": ["crm", "real-estate", "leads", "sales", "uae"]
+}
