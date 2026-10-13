@@ -1,7 +1,5 @@
 # IRM365
 
-![IRM365](assets/logo.svg)
-
 IRM365 is the CRM for real-estate brokerages in the UAE. This plugin connects Claude to your IRM365 account, so you can ask about your work in plain language. For example: which follow-ups are due today, which hot leads have gone quiet, what is in your pipeline, and what your team has been doing.
 
 ## What's included
