@@ -43,36 +43,37 @@
       },
       "onboardingSkill": "./skills/get-started/SKILL.md",
       "review": {
+        "demo_recording_url": "https://www.youtube.com/watch?v=GLOIaDaDDIs",
         "test_cases": {
           "positive": [
             {
               "description": "Today's and overdue follow-ups for the signed-in person",
               "prompt": "What follow-ups do I have today, and which ones are overdue?",
-              "tools_triggered": ["list_followups"],
+              "tools_triggered": "list_followups",
               "expected_behavior": "Calls list_followups for the overdue and today windows and lists each follow-up with its lead reference, type and due time, overdue first. No phone or email fields are listed."
             },
             {
               "description": "Search hot leads",
               "prompt": "Show me my hot leads that are still open.",
-              "tools_triggered": ["search_leads"],
+              "tools_triggered": "search_leads",
               "expected_behavior": "Calls search_leads with priority hot and lists the leads with reference, name, status, owner and last update."
             },
             {
               "description": "Look at one lead in detail",
               "prompt": "Give me a summary of lead LEAD-DEMO-001 and its latest activities.",
-              "tools_triggered": ["get_lead"],
+              "tools_triggered": "get_lead",
               "expected_behavior": "Calls get_lead with the reference and summarises status, priority, owner, requirements and the most recent activities."
             },
             {
               "description": "Pipeline review",
               "prompt": "Which opportunities are expected to close this month, and what is their total expected value?",
-              "tools_triggered": ["search_opportunities"],
+              "tools_triggered": "search_opportunities",
               "expected_behavior": "Calls search_opportunities filtered by expected close date and reports each opportunity with stage, value and probability, plus the total in AED."
             },
             {
               "description": "Team follow-up check for a manager",
               "prompt": "Who in my team has overdue follow-ups?",
-              "tools_triggered": ["list_my_team", "list_followups"],
+              "tools_triggered": "list_my_team, list_followups",
               "expected_behavior": "Calls list_my_team and list_followups with the overdue window, then groups the overdue follow-ups by team member."
             }
           ],
