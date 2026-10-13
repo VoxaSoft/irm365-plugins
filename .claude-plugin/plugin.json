@@ -9,6 +9,9 @@
   },
   "homepage": "https://irm365.com/integrations/ai-assistants",
   "privacyPolicyUrl": "https://irm365.com/privacy",
+  "termsOfServiceUrl": "https://irm365.com/terms",
+  "supportUrl": "https://irm365.com/contact",
+  "documentationUrl": "https://irm365.com/integrations/ai-assistants",
   "repository": "https://github.com/VoxaSoft/irm365-plugins",
   "license": "MIT",
   "keywords": ["crm", "real-estate", "leads", "sales", "uae"]
