@@ -8,6 +8,7 @@
     "url": "https://irm365.com"
   },
   "homepage": "https://irm365.com/integrations/ai-assistants",
+  "privacyPolicyUrl": "https://irm365.com/privacy",
   "repository": "https://github.com/VoxaSoft/irm365-plugins",
   "license": "MIT",
   "keywords": ["crm", "real-estate", "leads", "sales", "uae"]
