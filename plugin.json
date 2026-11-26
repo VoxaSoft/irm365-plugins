@@ -37,8 +37,8 @@
           "Summarise my open opportunities expected to close this month."
         ],
         "brandColor": "#593AF5",
-        "brandColorDark": "#3BE8B0",
-        "logo": "./assets/logo.svg",
+        "brandColorDark": "#41C4BE",
+        "logo": "./assets/icon.png",
         "composerIcon": "./assets/icon.png"
       },
       "onboardingSkill": "./skills/get-started/SKILL.md",
